@@ -36,7 +36,7 @@ export default function RecentProjects() {
                         className="h-full w-full rounded-t-lg object-cover object-top transition"
                     />
                     <a
-                        href="assets/img/projects/page_vitrinando.png"
+                        href="www.vitrinando.com"
                         data-gall="project-gallry-1"
                         target="_blank"
                         className="project-gallery-link absolute left-1/2 top-1/2 grid h-10 w-10 -translate-x-1/2 -translate-y-1/2 place-content-center rounded-full bg-white text-primary shadow-lg transition lg:invisible lg:-translate-y-[40%] lg:opacity-0 lg:group-hover:visible lg:group-hover:-translate-y-1/2 lg:group-hover:opacity-100 vbox-item"
@@ -71,7 +71,7 @@ export default function RecentProjects() {
                         className="h-full w-full rounded-t-lg object-cover object-top transition"
                     />
                     <a
-                        href="assets/img/projects/page_zapyflux.png"
+                        href="www.zapyflux.com"
                         target="_blank"
                         data-gall="project-gallry-2"
                         className="project-gallery-link absolute left-1/2 top-1/2 grid h-10 w-10 -translate-x-1/2 -translate-y-1/2 place-content-center rounded-full bg-white text-primary shadow-lg transition lg:invisible lg:-translate-y-[40%] lg:opacity-0 lg:group-hover:visible lg:group-hover:-translate-y-1/2 lg:group-hover:opacity-100 vbox-item"
