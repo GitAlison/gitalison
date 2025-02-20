@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: "Oxanium", serif;
+}
+
+@keyframes scrollY {
+  0% {
+      transform: translateY(0)
+  }
+
+  to {
+      transform: translateY(calc(-100% - 1rem))
+  }
+}
+
+
+.animate-scrollY {
+  animation: scrollY 10s linear infinite
+}
+
+@keyframes jump-shaking {
+  0% { transform: translateX(0) }
+  25% { transform: translateY(-9px) }
+  35% { transform: translateY(-9px) rotate(17deg) }
+  55% { transform: translateY(-9px) rotate(-17deg) }
+  65% { transform: translateY(-9px) rotate(17deg) }
+  75% { transform: translateY(-9px) rotate(-17deg) }
+  100% { transform: translateY(0) rotate(0) }
+}
+.rise-shake {
+  animation: jump-shaking 1s infinite ;
+}
