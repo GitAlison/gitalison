@@ -1,9 +1,12 @@
+import Image from "next/image";
+import Link from "next/link";
+
 export default function RecentProjects() {
 
     return <div className="rounded-2xl bg-white p-6 shadow dark:bg-black dark:shadow-dark">
         <div className="flex flex-wrap items-center justify-between gap-2">
             <h3 className="text-2xl font-semibold dark:text-light">Projetos Recentes</h3>
-            <a
+            <Link
                 href="portfolio.html"
                 className="inline-flex items-center justify-center gap-2 border-b text-center text-base dark:text-primary transition hover:border-b-primary dark:border-b-muted dark:hover:border-b-primary"
             >
@@ -20,14 +23,16 @@ export default function RecentProjects() {
                 >
                     <path d="M4.167 10h11.666m-4.999 5 5-5m-5-5 5 5" />
                 </svg>
-            </a>
+            </Link>
         </div>
         <div className="mt-6 space-y-6">
             <div className="group relative overflow-hidden rounded-lg bg-light p-4 pb-0 dark:bg-dark-2 md:p-6 md:pb-0">
                 <div className="relative aspect-6/4 overflow-hidden rounded-t-lg">
-                    <img
+                    <Image
                         src="assets/img/projects/page_vitrinando.png"
                         alt=""
+                        height={0}
+                        width={0}
                         className="h-full w-full rounded-t-lg object-cover object-top transition"
                     />
                     <a
@@ -58,9 +63,11 @@ export default function RecentProjects() {
             </div>
             <div className="group relative overflow-hidden rounded-lg bg-light p-4 pb-0 dark:bg-dark-2 md:p-6 md:pb-0">
                 <div className="relative aspect-6/4 overflow-hidden rounded-t-lg">
-                    <img
+                    <Image
                         src="assets/img/projects/page_zapyflux.png"
                         alt=""
+                        height={0}
+                        width={0}
                         className="h-full w-full rounded-t-lg object-cover object-top transition"
                     />
                     <a

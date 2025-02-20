@@ -62,7 +62,7 @@ export default function WorkExperience() {
                         </p>
                         <div className="flex items-center gap-3">
                             <div className="grid h-8 w-8 shrink-0 place-content-center rounded-lg bg-light dark:bg-dark-2">
-                                <img src="assets/img/zapyflux.png" alt="" className="h-5 w-5" />
+                                <Image src="assets/img/zapyflux.png" width={0} height={0} alt="" className="h-5 w-5" />
                             </div>
                             <div className="">
                                 <h6 className="text-base font-semibold text-dark dark:text-light/70">
@@ -78,7 +78,7 @@ export default function WorkExperience() {
                         </p>
                         <div className="flex items-center gap-3">
                             <div className="grid h-8 w-8 shrink-0 place-content-center rounded-lg bg-light dark:bg-dark-2">
-                                <img src="assets/img/vitrinando.png" alt="" className="h-5 w-5" />
+                                <Image src="assets/img/vitrinando.png" alt="" width={0} height={0}  className="h-5 w-5" />
                             </div>
                             <div className="">
                                 <h6 className="text-base font-semibold text-dark dark:text-light/70">

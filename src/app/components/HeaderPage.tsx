@@ -6,6 +6,7 @@ import { CiMenuFries } from "react-icons/ci";
 import { MdCallMissedOutgoing } from "react-icons/md";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 
 
 export default function HeaderPage() {
@@ -109,26 +110,26 @@ export default function HeaderPage() {
                 <div className="flex h-full flex-col justify-between gap-5 p-5">
                     <div className="">
                         {/* Logo */}
-                        <a
+                        <Link
                             href="/"
                             className="inline-flex items-center gap-3 px-3 text-2xl font-semibold text-dark dark:text-white"
                         >
-                            <img src="/assets/img/logo.png" alt="Alison Aguiar Logo" width={30} />
+                            <Image src="/img/logo.png" alt="Alison Aguiar Logo" height={30} width={30} />
                             <span>
                                 {" "}
                                 Alison<span className="text-primary">Aguiar</span>{" "}
                             </span>
-                        </a>
+                        </Link>
                     </div>
                     <ul className="mt-4 flex flex-1 flex-col gap-2">
                         <li className="group/menu-item active">
-                            <a
+                            <Link
                                 href="/"
                                 className="group inline-flex w-full items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white"
                             >
                                 <GrHomeRounded size={20} />
                                 <span>Inicio</span>
-                            </a>
+                            </Link>
                         </li>
                         <li className="group/menu-item active">
                             <a
@@ -170,13 +171,13 @@ export default function HeaderPage() {
                             </svg>
                             <span>Mudar Aparencia</span>
                         </button>
-                        <a
+                        <Link
                             href="https://api.whatsapp.com/send?phone=5585981182610"
                             className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-dark px-6 py-4 text-center text-base font-semibold leading-tight text-white transition hover:bg-primary dark:bg-dark-2 dark:text-white dark:hover:bg-primary dark:hover:text-white"
                         >
                             <span>Fala comigo</span>
                             <MdCallMissedOutgoing size={25} />
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

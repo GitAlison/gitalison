@@ -1,5 +1,6 @@
 import { tech_stack } from "@/utils/data";
 import { Profile } from "../components/Profile";
+import Image from 'next/image'
 
 export default function AboutPage() {
 
@@ -39,8 +40,11 @@ export default function AboutPage() {
                 <div className="mt-2 grid grid-cols-[repeat(auto-fit,_minmax(100px,1fr))] gap-2 lg:grid-cols-[repeat(auto-fit,_minmax(120px,1fr))] lg:gap-4">
                     {tech_stack.map((e, i) => {
                         return <div key={i} className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-                            <img
-
+                            <Image
+                                width={0}
+                                height={0}
+                                alt="Tech Stack"
+                                style={{ width: '100%', height: 'auto' }}
                                 className="rounded-md"
                                 src={e}
                             />
