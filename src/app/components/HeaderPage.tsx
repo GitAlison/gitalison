@@ -114,7 +114,7 @@ export default function HeaderPage() {
                             href="/"
                             className="inline-flex items-center gap-3 px-3 text-2xl font-semibold text-dark dark:text-white"
                         >
-                            <Image src="/img/logo.png" alt="Alison Aguiar Logo" height={30} width={30} />
+                            <Image src="/assets/img/logo.png" alt="Alison Aguiar Logo" height={30} width={30} />
                             <span>
                                 {" "}
                                 Alison<span className="text-primary">Aguiar</span>{" "}
