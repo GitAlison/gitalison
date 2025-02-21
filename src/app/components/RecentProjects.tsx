@@ -36,7 +36,7 @@ export default function RecentProjects() {
                         className="h-full w-full rounded-t-lg object-cover object-top transition"
                     />
                     <a
-                        href="www.vitrinando.com"
+                        href="https://vitrinando.com"
                         data-gall="project-gallry-1"
                         target="_blank"
                         className="project-gallery-link absolute left-1/2 top-1/2 grid h-10 w-10 -translate-x-1/2 -translate-y-1/2 place-content-center rounded-full bg-white text-primary shadow-lg transition lg:invisible lg:-translate-y-[40%] lg:opacity-0 lg:group-hover:visible lg:group-hover:-translate-y-1/2 lg:group-hover:opacity-100 vbox-item"
@@ -57,7 +57,7 @@ export default function RecentProjects() {
                 </div>
                 <div className="absolute inset-x-0 bottom-0 flex flex-wrap gap-2 bg-gradient-to-t from-black/20 p-4">
                     <span className="rounded bg-white dark:bg-dark px-2 py-1 text-xs font-medium dark:text-primary shadow">
-                        Create from Scratch
+                        Created from Scratch
                     </span>
                 </div>
             </div>
@@ -71,7 +71,7 @@ export default function RecentProjects() {
                         className="h-full w-full rounded-t-lg object-cover object-top transition"
                     />
                     <a
-                        href="www.zapyflux.com"
+                        href="https://www.zapyflux.com"
                         target="_blank"
                         data-gall="project-gallry-2"
                         className="project-gallery-link absolute left-1/2 top-1/2 grid h-10 w-10 -translate-x-1/2 -translate-y-1/2 place-content-center rounded-full bg-white text-primary shadow-lg transition lg:invisible lg:-translate-y-[40%] lg:opacity-0 lg:group-hover:visible lg:group-hover:-translate-y-1/2 lg:group-hover:opacity-100 vbox-item"
@@ -92,7 +92,7 @@ export default function RecentProjects() {
                 </div>
                 <div className="absolute inset-x-0 bottom-0 flex flex-wrap gap-2 bg-gradient-to-t from-black/20 p-4">
                     <span className="rounded bg-white dark:bg-dark px-2 py-1 text-xs font-medium dark:text-primary shadow">
-                        Create from Scratch
+                        Created from Scratch
                     </span>
                 </div>
             </div>

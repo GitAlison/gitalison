@@ -7,6 +7,7 @@ import { MdCallMissedOutgoing } from "react-icons/md";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
+import { HiOutlineColorSwatch } from "react-icons/hi";
 
 
 export default function HeaderPage() {
@@ -29,8 +30,8 @@ export default function HeaderPage() {
                                     <span>Inicio</span>
                                 </Link>
                             </li>
-                            <li className={`group/menu-item ${pathname == "/about" ? "active" : ""} `}>
-                                <a href="/about" className="group inline-flex items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white">
+                            <li className={`group/menu-item ${pathname == "/sobre" ? "active" : ""} `}>
+                                <a href="/sobre" className="group inline-flex items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white">
                                     <IoPersonOutline size={20} />
                                     <span>Sobre</span>
                                 </a>
@@ -41,12 +42,12 @@ export default function HeaderPage() {
                                 <span>Services</span>
                             </a>
                         </li> */}
-                            {/* <li className="group/menu-item ">
-                            <a href="portfolio.html" className="group inline-flex items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white">
-                                <HiOutlineColorSwatch size={20} />
-                                <span>Works</span>
-                            </a>
-                        </li> */}
+                            <li className={`group/menu-item ${pathname == "/trabalhos" ? "active" : ""} `}>
+                                <a href="/trabalhos" className="group inline-flex items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white">
+                                    <HiOutlineColorSwatch size={20} />
+                                    <span>Trabalhos Recentes</span>
+                                </a>
+                            </li>
                             {/* <li className="group/menu-item ">
                             <a href="blog.html" className="group inline-flex items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white">
                                 <BsSignpost size={20} />
@@ -122,7 +123,7 @@ export default function HeaderPage() {
                         </Link>
                     </div>
                     <ul className="mt-4 flex flex-1 flex-col gap-2">
-                        <li className="group/menu-item active">
+                        <li className={`group/menu-item ${pathname == "/" ? "active" : ""} `}>
                             <Link
                                 href="/"
                                 className="group inline-flex w-full items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white"
@@ -131,13 +132,22 @@ export default function HeaderPage() {
                                 <span>Inicio</span>
                             </Link>
                         </li>
-                        <li className="group/menu-item active">
+                        <li className={`group/menu-item ${pathname == "/sobre" ? "active" : ""} `}>
                             <a
                                 href="/sobre"
                                 className="group inline-flex w-full items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white"
                             >
                                 <IoPersonOutline size={20} />
                                 <span>Sobre mim</span>
+                            </a>
+                        </li>
+                        <li className={`group/menu-item ${pathname == "/trabalhos" ? "active" : ""} `}>
+                            <a
+                                href="/trabalhos"
+                                className="group inline-flex w-full items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white"
+                            >
+                                <HiOutlineColorSwatch size={20} />
+                                <span>Trabalhos Recentes</span>
                             </a>
                         </li>
 
