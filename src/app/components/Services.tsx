@@ -6,7 +6,7 @@ export default function ServicesComp() {
                     Serviços
                 </h3>
                 <a
-                    href="services.html"
+                    href="/trabalhos"
                     className="inline-flex items-center justify-center gap-2 border-b text-center text-base text-primary transition hover:border-b-primary dark:border-b-muted dark:hover:border-b-primary"
                 >
                     <span>Ver todos os serviços</span>
