@@ -32,7 +32,7 @@ export default function WorksPage() {
                                         className="h-full w-full rounded-t-lg object-cover object-top transition"
                                     />
                                     <a
-                                        href="assets/img/project-1.png"
+                                        href="https://zapyflux.com"
                                         data-gall="project-gallry-1"
                                         className="project-gallery-link absolute left-1/2 top-1/2 grid h-10 w-10 -translate-x-1/2 -translate-y-1/2 place-content-center rounded-full bg-white text-primary shadow-lg transition lg:invisible lg:-translate-y-[40%] lg:opacity-0 lg:group-hover:visible lg:group-hover:-translate-y-1/2 lg:group-hover:opacity-100 vbox-item"
                                     >
