@@ -1,4 +1,4 @@
-import { SlSocialFacebook, SlSocialGithub, SlSocialInstagram } from "react-icons/sl";
+import { SlSocialFacebook, SlSocialGithub, SlSocialInstagram, SlSocialLinkedin } from "react-icons/sl";
 import { MdPhoneInTalk } from "react-icons/md";
 import Image from 'next/image'
 import CopyEmail from "./CopyEmail";
@@ -35,6 +35,9 @@ export function Profile() {
                 <div className="mt-8 flex flex-wrap items-center gap-2">
                     <a href="https://github.com/gitalison" target="_newblank" className="flex p-3 items-center justify-center rounded-lg border border-slate-200 bg-transparent text-center text-slate-600 transition hover:text-slate-100 focus:outline-none focus:ring disabled:pointer-events-none disabled:opacity-50 dark:border-transparent dark:bg-dark-2 dark:text-slate-500 dark:hover:text-slate-200">
                         <SlSocialGithub size={25} />
+                    </a>
+                    <a href="https://www.linkedin.com/in/alison-aguiar" target="_newblank" className="flex p-3 items-center justify-center rounded-lg border border-slate-200 bg-transparent text-center text-slate-600 transition hover:text-blue-400 focus:outline-none focus:ring disabled:pointer-events-none disabled:opacity-50 dark:border-transparent dark:bg-dark-2 dark:text-slate-500 dark:hover:text-blue-400">
+                        <SlSocialLinkedin size={25} />
                     </a>
                     <a href="https://www.facebook.com/AlisonAguiahr" target="_newblank" className="flex p-3 items-center justify-center rounded-lg border border-slate-200 bg-transparent text-center text-slate-600 transition hover:text-blue-500 focus:outline-none focus:ring disabled:pointer-events-none disabled:opacity-50 dark:border-transparent dark:bg-dark-2 dark:text-slate-500 dark:hover:text-blue-500">
                         <SlSocialFacebook size={25} />

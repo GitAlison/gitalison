@@ -64,22 +64,6 @@ export default function HeaderPage() {
 
 
                         <div className="hidden items-center gap-4 lg:flex">
-                            <div className="">
-                                <button
-                                    type="button"
-                                    className="hs-dark-mode group flex h-10 w-10 items-center justify-center rounded-lg text-center font-medium text-dark transition hover:bg-light hs-dark-mode-active:hidden dark:text-gray-400 dark:hover:text-gray-500"
-                                    data-hs-theme-click-value="dark"
-                                >
-                                    <IoMoonSharp size={25} />
-                                </button>
-                                <button
-                                    type="button"
-                                    className="hs-dark-mode group hidden h-10 w-10 items-center justify-center rounded-lg text-center font-medium text-dark transition hover:bg-light hs-dark-mode-active:flex dark:text-[#FD7E41] dark:hover:bg-dark dark:hover:text-[#FD7E41]"
-                                    data-hs-theme-click-value="light"
-                                >
-                                    <FiSun size={25} />
-                                </button>
-                            </div>
                             {/* <div className="">
                                 <button type="button" className="hs-dark-mode group flex p-2 items-center justify-center rounded-lg text-center font-medium text-dark transition hover:bg-light hs-dark-mode-active:hidden dark:text-gray-400 dark:hover:text-gray-500" data-hs-theme-click-value="dark">
                                     <IoMoonSharp size={25} />
