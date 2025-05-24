@@ -1,7 +1,6 @@
 'use client'
-import { IoMoonSharp, IoPersonOutline } from "react-icons/io5";
+import { IoPersonOutline } from "react-icons/io5";
 import { GrHomeRounded } from "react-icons/gr";
-import { FiSun } from "react-icons/fi";
 import { CiMenuFries } from "react-icons/ci";
 import { MdCallMissedOutgoing } from "react-icons/md";
 import { usePathname } from "next/navigation";
